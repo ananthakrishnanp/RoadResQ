@@ -1,6 +1,6 @@
 # RoadResQ
 
-The **Traffic Complaint App** is a mobile application that allows users to report and track various traffic-related incidents, such as traffic violations, accidents, and road conditions. This app aims to improve road safety and infrastructure by empowering users to report issues and collaborate with relevant authorities for prompt resolution.
+The **RoadResQ** is a mobile application that allows users to report and track various traffic-related incidents, such as traffic violations, accidents, and road conditions. This app aims to improve road safety and infrastructure by empowering users to report issues and collaborate with relevant authorities for prompt resolution.
 
 <img src="https://github.com/ananthakrishnanp/RoadResQ/assets/94164901/32513a1d-eaf6-40c9-a385-545d1470e03c" width="200">
 <img src="https://github.com/ananthakrishnanp/RoadResQ/assets/94164901/4b2e476d-255d-478e-8b96-44050b80e831" width="200">
