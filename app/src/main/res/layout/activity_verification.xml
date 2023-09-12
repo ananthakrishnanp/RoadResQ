@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/offblack"
+    android:layout_height="match_parent"
+    tools:context=".Verification">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/wave_2"
+        android:layout_alignParentTop="true"
+
+        android:id="@+id/image"
+        android:rotation="180"
+        >
+
+    </ImageView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_rawRes="@raw/bcd"
+        app:lottie_autoPlay="true"
+        android:layout_above="@+id/enterotp"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/otpbox"
+        android:fontFamily="sans-serif-black"
+        android:text="Enter OTP"
+        android:textSize="24sp"
+        android:id="@+id/enterotp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/otpbox"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:hint="OTP"
+        android:background="@drawable/rounded_rectangle"
+        android:textColor="@color/white"
+        android:singleLine="true"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otpbox"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/orange_road"
+        android:fontFamily="sans-serif-medium"
+        android:text="Verify"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/verifybutton"
+        >
+
+    </com.google.android.material.button.MaterialButton>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
